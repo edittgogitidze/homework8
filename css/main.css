@@ -50,6 +50,7 @@ header {
   width: 1220px;
   height: 510px;
   margin: 0 auto;
+  margin-bottom: 60px;
 }
 .services-class {
   display: flex;
@@ -140,4 +141,53 @@ header {
   letter-spacing: 0%;
   font-family: "Inter 18pt";
   margin-bottom: 10px;
+}
+.video-icon {
+  background-color: #6b77e5;
+  width: 64.5px;
+  height: 64.6px;
+  padding: 19px 15.22px 18px 25px;
+  border-radius: 50%;
+}
+.video-icon img {
+  width: 100%;
+}
+.photo-zone {
+  position: relative;
+}
+.info-class {
+  width: 511px;
+  height: 270.5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.info-class h5 {
+  color: #37393f;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0%;
+  font-family: "Inter 18pt";
+  margin-bottom: 16px;
+}
+.info-class h2 {
+  color: #37393f;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 121%;
+  letter-spacing: 0%;
+  font-family: "Poppins";
+  margin-bottom: 21px;
+}
+.info-class h6 {
+  color: #37393f;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 146%;
+  letter-spacing: 0%;
+  font-family: "Inter 18pt";
+  margin-bottom: 47px;
 }
