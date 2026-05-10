@@ -1,34 +1,42 @@
 body {
   height: 3000px;
 }
+
 header {
   position: sticky;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 7;
+  /* background-color: aqua; */
   margin-bottom: 136px;
 }
 .menu-bar {
-  width: 1220px;
-  height: 65px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 1220px;
+  margin: 0 auto;
 }
 .ul-list {
-  width: 601px;
-  height: 22px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  margin: 21.5px 40px 0px;
+  width: 601px;
+}
+.menu-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ul-list a {
+  color: #37393f;
+  font-size: 400;
+  line-height: 100%;
+  letter-spacing: 0%;
+  font-family: "Inter 18pt";
 }
 .button {
-  width: 184px;
-  text-align: center;
   background-color: #6b77e5;
-  padding: 21px 0px;
+  padding: 21px 35px 22px;
+  margin-left: 40px;
 }
 .button a {
   color: #ffffff;
@@ -38,32 +46,16 @@ header {
   letter-spacing: 0%;
   font-family: "Cabin";
 }
-.logo {
-  width: 184px;
-  margin: 13.5px 195px 0px;
-}
-.menu-list {
-  width: 825px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.ul-list a {
-  color: #37393f;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 100%;
-  letter-spacing: 0%;
-  font-family: "Inter 18pt";
-}
-/*პირველი სექცია*/
-
-.about-work {
+.conditions-class {
   width: 1220px;
+  height: 510px;
   margin: 0 auto;
 }
-
+.services-class {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
 .title-class {
   width: 283px;
   height: 86px;
@@ -71,41 +63,16 @@ header {
   text-align: center;
   margin-bottom: 41px;
 }
-.about-services {
-  height: 383px;
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-}
-
-.icon-class img {
-  background-color: #40ddb6;
-}
-.icon-class2 img {
-  background-color: #6b77e5;
-}
-.icons-style img {
-  padding: 14.5px;
-  border-radius: 100px;
-}
-
-.about-services div {
-  width: 386px;
-  background-color: #f4f4f4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.title-class h4 {
+.title-class h5 {
   color: #37393f;
   font-size: 18px;
   font-weight: 500;
   line-height: 100%;
   letter-spacing: 0%;
+  font-family: "Inter 18pt";
   margin-bottom: 16px;
 }
-.title-class h1 {
+.title-class h2 {
   color: #37393f;
   font-size: 40px;
   font-weight: 700;
@@ -113,7 +80,41 @@ header {
   letter-spacing: 0%;
   font-family: "Poppins";
 }
-.about-h4 {
+.icon-class {
+  background-color: #40ddb6;
+  width: 72px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 72.5px;
+}
+.different-icon {
+  background-color: #6b77e5;
+  width: 72px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 72.5px;
+}
+.services-class-divs {
+  background-color: #f4f4f4;
+  width: 386px;
+  height: 383px;
+}
+.text-class {
+  width: 300px;
+  height: 185px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 58px;
+}
+.text-class h3 {
   color: #37393f;
   font-size: 25px;
   font-weight: 600;
@@ -122,7 +123,7 @@ header {
   font-family: "Poppins";
   margin-bottom: 16px;
 }
-.about-services h6 {
+.text-class h6 {
   color: #7d7d7d;
   font-size: 18px;
   font-weight: 400;
@@ -131,15 +132,12 @@ header {
   font-family: "Inter 18pt";
   margin-bottom: 37px;
 }
-
-.about-work h5 {
+.text-class h5 {
   color: #6b77e5;
   font-size: 18px;
   font-weight: 600;
   line-height: 100%;
   letter-spacing: 0%;
   font-family: "Inter 18pt";
-}
-.mg-10 {
   margin-bottom: 10px;
 }
