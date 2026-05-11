@@ -153,12 +153,12 @@ header {
 .photo-zone {
   text-align: center;
 }
-.photo-part{
+.photo-part {
   width: 100%;
 }
 .photo-class {
   position: relative;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .info-class {
