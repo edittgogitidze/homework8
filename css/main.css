@@ -149,12 +149,18 @@ header {
   padding: 19px 15.22px 18px 25px;
   border-radius: 50%;
 }
-.video-icon img {
+
+.photo-zone {
+  text-align: center;
+}
+.photo-part{
   width: 100%;
 }
-.photo-zone {
+.photo-class {
   position: relative;
+  display: inline-block;
 }
+
 .info-class {
   width: 511px;
   height: 270.5px;
