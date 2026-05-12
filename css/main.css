@@ -9,14 +9,17 @@ header {
   /* background-color: aqua; */
   margin-bottom: 136px;
 }
-header:hover {
-  background-color: #40ddb6;
-}
 .menu-bar {
   display: flex;
   justify-content: space-between;
   width: 1220px;
   margin: 0 auto;
+}
+.logo:hover {
+  width: 300px;
+  background-color: chocolate;
+  border-radius: 15px;
+  padding: 10px;
 }
 .ul-list {
   display: flex;
@@ -46,8 +49,10 @@ header:hover {
   margin-left: 40px;
 }
 .button:hover {
-  background-color: #7d7d7d;
-  width: 250px;
+  background-color: chocolate;
+  padding: 25px;
+  border-radius: 15px;
+
 }
 .button a {
   color: #ffffff;
@@ -263,7 +268,7 @@ header:hover {
   align-items: center;
   flex-direction: column;
 }
-.member-class:hover{
+.member-class:hover {
   background-color: aquamarine;
 }
 .member-class h3 {
